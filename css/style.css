@@ -59,4 +59,5 @@ a {
 #legend {
   margin: 12px;
   float: left;
+  text-transform: capitalize;
 }

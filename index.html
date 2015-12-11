@@ -90,12 +90,16 @@
       ($(document).ready(function(){
         var url = window.document.URL;
         if(url.indexOf(".azurewebsites.net") > 0) {
-          var prefix = url.replace("http://", "").replace(".azurewebsites.net", "");
+          var prefix = url.replace("http://", "").replace(".azurewebsites.net", "").replace("/", "");
+          var siteName = "";
           if(prefix.indexOf("-") > 0){
             var prefixParts = prefix.split("-");
-            var siteName = prefixParts.join(" ");
-            $("#siteName").text(siteName);
+            siteName = prefixParts.join(" ");
+          } else {
+            siteName = prefix;
           }
+          
+          $("#siteName").text(siteName);
         }
         $("#btn-share-fb").data("href", window.document.URL);
       }));
