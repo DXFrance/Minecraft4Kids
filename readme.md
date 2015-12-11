@@ -1,4 +1,4 @@
-# Votre site web Minecraft dans Azure !
+# Votre site web aux couleurs de Minecraft dans Azure !
 
 Pour déployer votre site web, rien de plus simple que de cliquer sur le bouton ci-dessous :
 

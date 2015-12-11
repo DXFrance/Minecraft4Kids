@@ -52,31 +52,40 @@
         </div>
       </div>
       <div class="row">
-         <div class="col-xs-3">
-        </div>
-        <div class="col-xs-6 text-center">
-          <h1 class="bienvenue">Bienvenue sur mon site :-)</h1>
-        </div>
-        <div class="col-xs-3">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3">
-        </div>
-        <div class="col-xs-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="col-xs-3">
-        </div>
-      </div>
-      <div class="row">
         <div class="col-xs-12">
-          <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="icon_link"></div>
+          <div class="site-content">
+            <div class="row">
+              <div class="col-xs-3">
+              </div>
+              <div class="col-xs-6 text-center">
+                <h1 class="bienvenue">Bienvenue sur mon site :-)</h1>
+              </div>
+              <div class="col-xs-3">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="flex-video widescreen">
+                  <iframe src="https://www.youtube.com/embed/MmB9b5njVbA" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div id="btn-share-fb" class="fb-share-button" data-layout="icon_link"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div><!-- /.container -->
 	
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      ($(document).ready(function(){
+        $("#btn-share-fb").data("href", window.document.URL);
+      }));
+    </script>
   </body>
 </html>
