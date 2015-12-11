@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/stone.png');
+}
+
+a {
+  color: #00B7FF;
+}
+
+.minecraft-banner {
+  width:100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.navbar-inverse{
+  background-image: url('../images/minecraftsprite.png');
+}
+
+.bienvenue{
+  color:#fff;
+}
