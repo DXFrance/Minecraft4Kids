@@ -72,6 +72,10 @@
             </div>
             <div class="row">
               <div class="col-xs-12">
+                <p id="legend">
+                  <span>Site créé par : </span>
+                  <span id="siteName"></span>
+                </p>
                 <div id="btn-share-fb" class="fb-share-button" data-layout="icon_link"></div>
               </div>
             </div>
@@ -84,6 +88,15 @@
     <script src="javascripts/bootstrap.min.js"></script>
     <script type="text/javascript">
       ($(document).ready(function(){
+        var url = window.document.URL;
+        if(url.indexOf(".azurewebsites.net") > 0) {
+          var prefix = url.replace("http://", "").replace(".azurewebsites.net", "");
+          if(prefix.indexOf("-") > 0){
+            var prefixParts = prefix.split("-");
+            var siteName = prefixParts.join(" ");
+            $("#siteName").text(siteName);
+          }
+        }
         $("#btn-share-fb").data("href", window.document.URL);
       }));
     </script>
