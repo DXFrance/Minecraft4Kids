@@ -1,4 +1,4 @@
-# Activez votre compte Microsoft Azure !
+# Active ton compte Microsoft Azure !
 
 * Connecte-toi sur <a href="https://www.dreamspark.com/Product/Product.aspx?productid=99" title="DreamSpark.com">DreamSpark.com</a> avec ton compte Microsoft
 
