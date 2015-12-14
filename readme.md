@@ -20,6 +20,8 @@
 
 <img src="http://blogs.microsoft.fr/azure/files/2015/10/azure-pour-dreamspark-5.png?c0cdfa" alt="wait" title="Patiente..." />
 
+Et voilà ! :-)
+
 # Ton site web aux couleurs de Minecraft dans Azure !
 
 Pour déployer ton premier site web, rien de plus simple que de cliquer sur le bouton ci-dessous :
