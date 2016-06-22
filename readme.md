@@ -55,3 +55,5 @@ Clique ensuite sur le bouton Deploy et patiente pendant la création de ton site
 Une fois créé, il ne te reste plus qu'à cliquer sur l'adresse affichée pour visualiser ta première page web et la partager !
 
 <img src="http://blogs.microsoft.fr/azure/files/2015/10/Tuto_Students_WebPage_004.png" />
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
